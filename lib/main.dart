@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
           ).copyWith(
             secondary: Color(0xff2ab748),
           ),
-          fontFamily: 'Lato'
+          fontFamily: 'CartIcons'
       ),
       initialRoute: SplashScreen.id,
       routes: {

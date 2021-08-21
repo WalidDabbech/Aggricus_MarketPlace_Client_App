@@ -58,7 +58,7 @@ class _VendorCategoriesState extends State<VendorCategories> {
                       color: Colors.black,
                       fontSize: 25,
                       fontWeight: FontWeight.bold,
-                      fontFamily: 'Tahoma',
+                      fontFamily: 'CartIcons',
 
                   ),),
                 ),

@@ -43,7 +43,7 @@ class RecentlyAddedProducts extends StatelessWidget {
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
                         fontSize: 25,
-                        fontFamily: 'Tahoma',
+                        fontFamily: 'CartIcons',
 
                       ),),
                       Padding(
@@ -52,7 +52,7 @@ class RecentlyAddedProducts extends StatelessWidget {
                           onTap: (){},
                           child: Row(
                             children: [
-                              Text('View All',style: TextStyle(color: Theme.of(context).primaryColor,fontWeight: FontWeight.bold,fontFamily: 'Tahoma',fontSize: 16),),
+                              Text('View All',style: TextStyle(color: Theme.of(context).primaryColor,fontWeight: FontWeight.bold,fontFamily: 'CartIcons',fontSize: 16),),
                               Icon(Icons.arrow_forward_ios_rounded,color: Colors.grey[600],size: 16,)
                             ],
                           ),

@@ -79,6 +79,9 @@ flutter:
    - images/
 
   fonts:
+    - family: CartIcons
+      fonts:
+        - asset: fonts/CartIcons.ttf
     - family: Lato
       fonts:
         - asset: fonts/Lato-Bold.ttf

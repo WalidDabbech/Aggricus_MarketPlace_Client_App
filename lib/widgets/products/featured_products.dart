@@ -34,16 +34,33 @@ final ProductServices _services = ProductServices();
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 height: 46,
-                child: Padding(
-                  padding: const EdgeInsets.only(left:8.0,top: 12.0),
-                  child: Text('Featured Products',style: TextStyle(
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 25,
-                      fontFamily: 'Tahoma',
+                  child: Padding(
+                      padding: EdgeInsets.only(left: 8,top: 12.0),
+                      child: Row(
+                        mainAxisAlignment:MainAxisAlignment.spaceBetween ,
+                        children: [
+                          Text('Featured Products',style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 25,
+                            fontFamily: 'CartIcons',
 
-                  ),),
-                ),
+                          ),),
+                          Padding(
+                              padding: const EdgeInsets.only(right:8),
+                              child: InkWell(
+                                onTap: (){},
+                                child: Row(
+                                  children: [
+                                    Text('View All',style: TextStyle(color: Theme.of(context).primaryColor,fontWeight: FontWeight.bold,fontFamily: 'CartIcons',fontSize: 16),),
+                                    Icon(Icons.arrow_forward_ios_rounded,color: Colors.grey[600],size: 16,)
+                                  ],
+                                ),
+                              )
+                          )
+                        ],
+                      )
+                  ),
               ),
             ),
           Container(
